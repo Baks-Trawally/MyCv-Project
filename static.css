@@ -35,9 +35,11 @@ header{
 
 .head1 h1{
     margin: auto;
+    font-size: 21px;
     margin-left: 90px;
     margin-top: 20px;
      color: rgb(64, 64, 221);
+     font-family: system-ui;
 
 }
 
