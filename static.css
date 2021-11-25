@@ -148,7 +148,6 @@ hr{
     padding-left: 10px;
 }
 .skew{
-    
     position: absolute;
     top: 0%;
     bottom: 5px;
@@ -218,6 +217,7 @@ i .fa{
     list-style: circle;
 
 }
+
 #col6Content ul li span:first-of-type{
     font-weight: 700;
     min-width: 10%;
@@ -248,7 +248,8 @@ i .fa{
         flex-direction: column;
         text-align: center;
         margin-top: 0;
-        opacity: .5;
+        opacity: .8;
+        color: black;
         background-image: none;
         font-size: bold;
         font-family: 'Courier New', Courier, monospace;
@@ -262,12 +263,12 @@ i .fa{
         line-height: 1.4;
         vertical-align: top;
         border: 1px solid #ddd;
-        color: green;
+        color: black;
         overflow: visible;
     }
     body{
         background-color: white;
-        background-image: url(forest1.jfif);
+        background-image: url(forest.jpg);
     
     }
     a i{
@@ -313,11 +314,6 @@ i .fa{
         
         
     }
-    /* .foot footer{
-        padding: 5%;
-        
-        
-    } */
     .skew{
         display: none;
     }
@@ -335,5 +331,13 @@ img{
     list-style:none;
     margin-top: 10px;
     margin-left: 10px;
+}
+#col5Content ul a{
+    display: block;
+    width: 10%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 230px;
+
 }
 }
